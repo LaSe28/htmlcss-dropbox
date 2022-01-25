@@ -8,6 +8,7 @@ html{
    scroll-behavior: smooth;
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    line-height: 1.5;
+   font-size: 0.8rem;
 }
 
 a{
@@ -17,14 +18,14 @@ a{
 
 /*classi comuni*/
 
-.container-1k{
-    max-width: 1000px;
+.container-1-1k{
+    max-width: 1100px;
     min-width: 700px;
     margin: auto;
 }
 
-.container-900{
-    max-width: 900px;
+.container-1k{
+    max-width: 1000px;
     min-width: 600px;
     margin: auto;
 }
@@ -116,7 +117,60 @@ a{
     display: inline-block;
 }
 
+h2{
+    font-size: 2rem;
+}
 
+.lh-1-2{
+    line-height: 1.2rem;
+}
+
+.mt-1{
+    margin-top: 1rem;
+}
+
+.mr-1{
+    margin-right: 1rem;
+}
+
+.mb-1{
+    margin-bottom: 1rem;
+}
+
+.ml-1{
+    margin-left: 1rem;
+}
+
+.mt-2{
+    margin-top: 2rem;
+}
+
+.mr-2{
+    margin-right: 2rem;
+}
+
+.mb-2{
+    margin-bottom: 2rem;
+}
+
+.ml-2{
+    margin-left: 2rem;
+}
+.mnt-2{
+    margin-top: -2rem;
+}
+
+.mnr-2{
+    margin-right: -2rem;
+}
+
+.mnb-2{
+    margin-bottom: -2rem;
+}
+
+.mnl-2{
+    margin-left: -2rem;
+}
 /*menu superiore*/
 
 
@@ -162,7 +216,7 @@ nav .menu:hover{
 .jumbo{
     width: 70%;
     margin-right: -5rem;
-    margin-bottom: -3rem;
+    margin-bottom: -5rem;
 }
 
 section h1{
@@ -170,6 +224,49 @@ section h1{
 
 }
 
-.fas{
+.arrow{
     font-size: 3rem;
+}
+
+/*seconda sezione*/
+
+.circle{
+    display: inline-block;
+    width: 1.2rem;
+    height: 1.2rem;
+    border: 1px solid grey;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.check .circle{
+    border: 4px solid blue;
+}
+
+.column{
+    margin: 0 2rem;
+    width: calc((100% - 12rem) / 3);
+    border: 1px solid lightgrey;
+    float: left;
+}
+
+.top-column{
+    border-bottom: 1px solid lightgrey;
+    text-align: center;
+}
+.in-column{
+    margin: 1.5rem;
+}
+
+.column h3{
+    font-size: 1.3rem;
+}
+
+.column h4{
+    font-size: 1.1rem;
+}
+
+.column span{
+    padding-bottom: 2em;
+    border-bottom: 1px solid lightgrey;
 }
