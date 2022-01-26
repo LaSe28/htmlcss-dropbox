@@ -248,6 +248,7 @@ section h1{
     width: calc((100% - 12rem) / 3);
     border: 1px solid lightgrey;
     float: left;
+    height: 800px;
 }
 
 .top-column{
@@ -266,6 +267,11 @@ section h1{
     font-size: 1.1rem;
 }
 
+.column .link{
+    text-decoration: underline;
+    color: #285FF6;
+}
+
 .column span{
     padding-bottom: 2em;
     border-bottom: 1px solid lightgrey;
@@ -282,3 +288,14 @@ section h1{
     margin-left: -0.5rem;
 }
 
+.colmnn ul, li{
+    list-style: none;
+}
+
+.column li::before{
+    content: "\2714";
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+    color: #285FF6;
+}
