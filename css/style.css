@@ -270,3 +270,15 @@ section h1{
     padding-bottom: 2em;
     border-bottom: 1px solid lightgrey;
 }
+
+.icon{
+    width: 20px;
+    line-height: 2rem;
+    vertical-align: top;
+}
+
+.column-text{
+    width: calc(100% - 25px);
+    margin-left: -0.5rem;
+}
+
