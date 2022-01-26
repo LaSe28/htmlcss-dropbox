@@ -93,6 +93,22 @@ a{
     padding-left: 2rem;
 }
 
+.pt-4{
+    padding-top: 4rem;
+}
+
+.pr-4{
+    padding-right: 4rem;
+}
+
+.pb-4{
+    padding-bottom: 4rem;
+}
+
+.pl-4{
+    padding-left: 4rem;
+}
+
 .pt-10{
     padding-top: 10rem;
 }
@@ -278,6 +294,10 @@ section h1{
     margin: 0 2rem;
     width: calc((100% - 12rem) / 3);
     float: left;
+    
+}
+
+.h-column{
     height: 800px;
 }
 
@@ -363,5 +383,15 @@ section h1{
 }
 
 .text a{
+    font-size: 1.2rem;
+}
+
+/* seconda sezione colonne */
+
+.scnd-sec-col img{
+    width: 100%;
+}
+
+.scnd-sec-col p{
     font-size: 1.2rem;
 }
