@@ -16,6 +16,10 @@ a{
     color: black;
 }
 
+path{
+    fill: white;
+}
+
 /*classi comuni*/
 
 .container-1-1k{
@@ -528,6 +532,36 @@ footer{
     color: white;
 }
 
+footer h3{
+    font-size: 1.3rem;
+}
+
 footer ul{
     list-style: none;
 }
+
+footer li{
+    padding-top: 0.5rem;
+}
+
+footer a{
+    color: white;
+}
+
+.li-column{
+    width: calc((100% - 20rem) / 5);  
+}
+
+.leng{
+    width: 90px;
+    border-top: 1px solid rgba(143, 137, 137, 0.7);
+    color: rgba(143, 137, 137, 0.7) ;
+}
+
+.leng>div{
+    transform: rotate(180deg);
+    text-align: right;
+    vertical-align: top;
+    line-height: 1.5;
+}
+
