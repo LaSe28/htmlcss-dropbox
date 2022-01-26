@@ -50,7 +50,7 @@ a{
 .btn-white{
     border: 1px solid black;
     color: black;
-
+    background-color: white;
 }
 
 .btn-blue:hover{
@@ -218,6 +218,10 @@ h2{
 .border{
     border: 1px solid lightgrey;
 }
+
+.p-rel{
+    position: relative;
+}
 /*menu superiore*/
 
 
@@ -365,6 +369,9 @@ section h1{
 
 /* sezione partners */
 
+h2{
+    font-size: 2.5rem;
+}
 
 .partners img{
  max-width: 500px ;
@@ -394,4 +401,99 @@ section h1{
 
 .scnd-sec-col p{
     font-size: 1.2rem;
+}
+
+.after-sec a{
+    text-decoration: underline;
+    color: #285FF6;
+}
+
+.after-sec h2{
+    width: 60%;
+}
+
+/* sezione teams */
+
+
+.info{  
+    overflow-y: scroll;
+    width: calc(100% - 60vw);
+    height: 30vw;
+    background-color: #F5F5F5;
+}
+
+.container-info{
+
+}
+
+.info img{
+    width: 180px;
+}
+
+.quad{
+    width: 30vw;
+    height: 30vw;
+}
+
+.team{
+    width: 50%;
+    height: 50%;
+    position: relative;
+}
+
+.team svg{
+    max-width: 60%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.green{
+    background-color: #ACD2A0;
+    border: 10px solid #D5E8CF;
+}
+
+.brown{
+    background-color: #59132B;
+}
+
+.liblue{
+    background-color: #4091C9;
+}
+
+.red{
+    background-color: red;
+}
+
+.dred{
+    background-color: #C3292B;
+}
+
+.cyan{
+    background-color: #B9CFE5;
+}
+
+.blue{
+    background-color: #13237B;
+}
+
+.yellow{
+    background-color: #F9D956;
+}
+/* sezione finale */
+
+.final{
+    background-color: #B9CFE5;
+}
+
+.final h2 {
+    color: #59132B;
+    width: 40%;
+}
+
+.final .btn{
+    border: none;
+    padding-right: 5rem;
+    padding-left: 5rem;
 }
