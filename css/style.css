@@ -238,6 +238,7 @@ nav{
     min-width: 1050px;
     background-color: white;
     padding-bottom: 1rem;
+    z-index: 20;
 }
 
 .logo img{
