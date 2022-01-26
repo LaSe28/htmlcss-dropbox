@@ -47,8 +47,18 @@ a{
     background-color:#285FF6;
 }
 
+.btn-white{
+    border: 1px solid black;
+    color: black;
+
+}
+
 .btn-blue:hover{
     background-color:#5179e6;
+}
+
+.btn-white:hover{
+    background-color: rgb(231, 231, 231);
 }
 
 .pt-1{
@@ -156,6 +166,23 @@ h2{
 .ml-2{
     margin-left: 2rem;
 }
+
+.mt-4{
+    margin-top: 4rem;
+}
+
+.mr-4{
+    margin-right: 4rem;
+}
+
+.mb-4{
+    margin-bottom: 4rem;
+}
+
+.ml-4{
+    margin-left: 4rem;
+}
+
 .mnt-2{
     margin-top: -2rem;
 }
@@ -170,6 +197,10 @@ h2{
 
 .mnl-2{
     margin-left: -2rem;
+}
+
+.border{
+    border: 1px solid lightgrey;
 }
 /*menu superiore*/
 
@@ -228,7 +259,7 @@ section h1{
     font-size: 3rem;
 }
 
-/*seconda sezione*/
+/*sezione colonne*/
 
 .circle{
     display: inline-block;
@@ -246,7 +277,6 @@ section h1{
 .column{
     margin: 0 2rem;
     width: calc((100% - 12rem) / 3);
-    border: 1px solid lightgrey;
     float: left;
     height: 800px;
 }
@@ -254,16 +284,19 @@ section h1{
 .top-column{
     border-bottom: 1px solid lightgrey;
     text-align: center;
+    vertical-align: middle;
 }
 .in-column{
     margin: 1.5rem;
 }
 
-.column h3{
-    font-size: 1.3rem;
+.column h3,
+.bottom-text h3{
+    font-size: 1.7rem;
 }
 
-.column h4{
+.column h4,
+.bottom-text h4{
     font-size: 1.1rem;
 }
 
@@ -298,4 +331,37 @@ section h1{
     width: 1em;
     margin-left: -1em;
     color: #285FF6;
+}
+
+.bottom-text .btn{
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.bottom-text a{
+    color: white;
+}
+
+
+/* sezione partners */
+
+
+.partners img{
+ max-width: 500px ;
+}
+
+.partners .text{
+    width: 45%;
+}
+
+.text h3{
+    font-size: 1.7rem;
+}
+
+.text p{
+    font-size: 1.2rem;
+}
+
+.text a{
+    font-size: 1.2rem;
 }
