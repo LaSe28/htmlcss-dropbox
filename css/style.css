@@ -494,3 +494,40 @@ h2{
     padding-right: 5rem;
     padding-left: 5rem;
 }
+
+
+/* sezione faq */
+
+.question {
+    border-top: 1px solid lightgrey;
+}
+.faq h2{
+    font-size: 2rem;
+}
+
+.faq p{
+    font-weight: bold;
+}
+
+.faq .arrow{
+    font-size: 1.5rem;
+    vertical-align: middle;
+    padding-top: 1.5rem;
+}
+
+.question:last-child{
+    border-bottom: 1px solid lightgrey;
+}
+
+
+/* menu footer */
+
+
+footer{
+    background-color: black;
+    color: white;
+}
+
+footer ul{
+    list-style: none;
+}
