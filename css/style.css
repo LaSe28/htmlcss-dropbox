@@ -14,6 +14,7 @@ html{
 a{
     text-decoration: none;
     color: black;
+    display: inline-block;
 }
 
 path{
@@ -228,21 +229,21 @@ h2{
 }
 /*menu superiore*/
 
-
-
 nav{
-    line-height: 3rem;
+    line-height: calc(5rem - 4px);
     position: fixed;
     top: 0;
     width: 100%;
     min-width: 1050px;
     background-color: white;
-    padding-bottom: 1rem;
     z-index: 20;
 }
 
 .logo img{
-    display: inline-block;
+    vertical-align: middle;
+}
+
+nav li{
     vertical-align: middle;
 }
 
@@ -259,11 +260,12 @@ header li{
 }
 
 nav .menu{
-    padding: 25px 0;
+    border-bottom: 2px solid rgba(255, 255, 255, 1);
 }
 
 nav .menu:hover{
     border-bottom: 2px solid #285FF6;
+
 }
 
 
