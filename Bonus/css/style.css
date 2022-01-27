@@ -144,6 +144,10 @@ path{
     clear: both;
 }
 
+.lightgrey{
+    color: rgba(134, 131, 131, 0.63);
+}
+
 .i-bl{
     display: inline-block;
 }
@@ -263,6 +267,27 @@ nav .option:hover{
     border-bottom: 2px solid #285FF6;
 }
 
+.submenu  {
+    position: absolute;
+    left:-2rem;
+    width: 200px;
+    top:4.9rem;
+    background-color: white;
+    display: none;
+}
+
+#supp:hover .submenu {
+    display: inline-block;
+}
+
+.submenu a,
+.submenu li{
+    line-height: 3rem;
+}
+
+.submenu li:hover{
+    background-color: #F1F3F4;
+}
 
 
 /* prima sezione*/
@@ -300,12 +325,11 @@ section h1{
 .column{
     margin: 0 2rem;
     width: calc((100% - 12rem) / 3);
-    float: left;
-    
+    float: left;    
 }
 
 .h-column{
-    height: 800px;
+    min-height: 800px;
 }
 
 .top-column{
@@ -580,7 +604,14 @@ footer a:hover{
 .leng{
     width: 90px;
     border-top: 1px solid rgba(143, 137, 137, 0.7);
+}
+
+.leng a{
     color: rgba(143, 137, 137, 0.7) ;
+}
+
+.leng a:hover{
+    text-decoration: none;
 }
 
 .leng>div{

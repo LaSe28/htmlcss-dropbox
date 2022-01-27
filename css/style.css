@@ -309,7 +309,7 @@ section h1{
 }
 
 .h-column{
-    height: 800px;
+    min-height: 800px;
 }
 
 .top-column{
@@ -551,6 +551,10 @@ footer a{
     color: white;
 }
 
+footer a:hover{
+    text-decoration: underline;
+}
+
 .li-column{
     width: calc((100% - 20rem) / 5);  
 }
@@ -558,7 +562,14 @@ footer a{
 .leng{
     width: 90px;
     border-top: 1px solid rgba(143, 137, 137, 0.7);
+}
+
+.leng a{
     color: rgba(143, 137, 137, 0.7) ;
+}
+
+.leng a:hover{
+    text-decoration: none;
 }
 
 .leng>div{
