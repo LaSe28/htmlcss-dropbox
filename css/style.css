@@ -273,7 +273,6 @@ nav .menu:hover{
 
 .jumbo{
     width: 70%;
-    margin-right: -5rem;
     margin-bottom: -5rem;
 }
 
@@ -381,11 +380,11 @@ h2{
 }
 
 .partners img{
- max-width: 500px ;
+    width:35vw;
 }
 
 .partners .text{
-    width: 45%;
+    width: 30vw;
 }
 
 .text h3{
